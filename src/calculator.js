@@ -14,9 +14,14 @@ const divisao = (a, b) => {
     return a / b
 }
 
+const potencia = (a, b) => {
+    return a ** b
+}
+
 module.exports = {
     soma,
     subtracao,
     multiplicacao,
     divisao,
+    potencia
 }
